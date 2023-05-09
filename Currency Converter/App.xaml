@@ -15,5 +15,8 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Image x:Key="Logo">
+            
+        </Image>
     </Application.Resources>
 </Application>

@@ -7,7 +7,7 @@
         xmlns:faw="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:local="clr-namespace:Currency_Converter"
         mc:Ignorable="d"
-        Title="Curency Converter" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Icon="C:\Users\Denzel\Pictures\1_AN9EWJOI9DJSAkb-3RV-5w.webp">
+        Title="Curency Converter" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
@@ -65,7 +65,7 @@
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="4" Height="150" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
-            <Image Width="586" Height="139" Source="Images/Cancellor.jpg" VerticalAlignment="Center" Margin="98,0,0,0"/>
+            <Image Width="586" Height="139" Source="/Images/Cancellor.jpg" VerticalAlignment="Center" Margin="98,0,0,0"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -36,7 +36,7 @@ namespace Currency_Converter
         private async void GetExchangeRateValues()
         {
             _ExchangeRate = new ExchangeRate();
-            _ExchangeRate = await Rate.GetRates<ExchangeRate>("https://openexchangerates.org/api/latest.json?app_id=<APIKEY>");
+            _ExchangeRate = await Rate.GetRates<ExchangeRate>("https://openexchangerates.org/api/latest.json?app_id=");
             BindCurrencies();
         }
 
